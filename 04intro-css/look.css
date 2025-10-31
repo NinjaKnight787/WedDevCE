@@ -57,6 +57,13 @@ figure.middle img{
   height: 300px;
 
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
 
 h1 { 
   font-weight: 600;
