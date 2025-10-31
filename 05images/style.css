@@ -1,0 +1,150 @@
+body {
+
+    font-family: "My Soul", serif;
+      font-weight: 400;
+
+    margin: 1rem;
+    padding: 6rem;
+    background-color: #eaeaea;
+
+
+}
+
+
+a{
+  text-decoration: none;
+  color: #FA463E;
+}
+
+main a:hover{
+  color: #EBA833;
+
+}
+
+
+
+header{
+  font-size: 5rem;
+}
+
+nav { 
+  font-style: italic;
+  background-color: #EBA833;
+  padding: 0rem ;
+}
+nav a {
+  padding: 1rem 1rem;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #7006e0;
+ 
+}
+nav a:hover{
+  color: #eaeaea;
+  background-color: #7006e0;
+}
+
+nav .active a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+main img {
+  float: right;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}
+
+
+figure.wrapped figcaption {
+    text-align: center;
+}
+
+figure.wrapped {
+  float: right;
+}
+
+
+
+
+
+h1 { 
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: bold;
+  border: #60A69E;
+
+}
+h2 {
+  font-style: italic;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+h3 {
+margin-bottom: 4rem;
+font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+}
+
+
+
+p {
+  font-size: 2rem;
+}
+
+
+
+/* well itsnt this fun? for UL's */
+
+
+ul {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 5px;
+
+
+  font-size: 2rem;
+}
+  nav ul{
+    margin: 2rem;
+    padding: 0 10px;
+    display: flex;
+  }
+
+main ul {
+  padding: 3rem;
+  border: 1px groove #60A69E;
+  border-radius: 35px;
+
+}
+
+
+
+
+
+ol {
+  list-style-type: circle;
+  font-size: 2rem;
+}
+
+
+
+
+
+dl dt {
+  color: #A267E0;
+  font-size: 3rem;
+
+}
+dl dd{
+  color: #60A69E;
+  font-size: 2rem;
+}
+footer{
+  clear: both;
+}
