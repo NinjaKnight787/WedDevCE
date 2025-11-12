@@ -136,18 +136,22 @@ ol {
 
 /* Alright this is the form stuff*/
 
-fieldset {
+.form fieldset {
   border: solid 1px #60A69E;
-  
+  border-radius: 3px;
+  margin-bottom: 3px;
 
 
 
 }
-fieldset legend {
+.form fieldset legend {
   font-size: 2rem;
   color: #7006e0;
 }
-
+.form label {
+  display: block;
+  padding: 3px;
+}
 
 
 

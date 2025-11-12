@@ -40,20 +40,20 @@
     </nav>
 
     <main>
+        <form method="get" class="form" action="thanks.html">
         <fieldset>
             <legend>Who are you?</legend>
 
-            <label>First Name</label>
+            <label>First Name* <input type="text" name="fname" required>
+            </label>
 
-            <input type="text" name="fname" required>
+            <label>Last name* <input type="text" name="lname" required>
+             </label>
 
-            <label>Last name</label>
+            <label>Cell Number* <input type="tel" name="phone" required>
+             </label>
 
-             <input type="text" name="lname" required>
-
-            <label>Ce*-</label>
-
-             <input type="tel" name="phone" required>
+             <label>Email* <input type="email" name="email" required></label>
 
 
 
@@ -64,26 +64,51 @@
         <fieldset>
             <legend>Where you do want to go?</legend>
 
+            <label >
+                <input type="radio" name="place" required>Middle Earth 
+            </label>
 
-
-
-
-
-
+            <label>
+               <input type="radio" name="place" required>Scadrial
+            </label>
+            
+            <label>
+                <input type="radio" name="place" required>Name to be determened
+            </label>
+  
         </fieldset>
 
 
         <fieldset>
-            <legend>when do you want to start?</legend>
+            <legend>When do you want to start?</legend>
 
+            <label>
+                <input type="checkbox" name="asap"> As soon as possible
+            </label>
+            
+            <label>
+                <input type="checkbox" name="witw"> With in the week
+            </label>
+            
+            <label>
+                <input type="checkbox" name="gmam"> Give me a month
+            </label>
+            <label>
+                <input type="checkbox" name="gmay"> Give me a year
+            </label>
 
 
 
 
         </fieldset>
 
-         
+        <label> Remarks
+            <textarea name="remarks"></textarea>
+        </label>
         
+        <label><input type="submit" value="Get Your Tickets"></label>
+         
+        </form>
 
 
 
