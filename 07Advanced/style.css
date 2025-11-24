@@ -1,0 +1,258 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "My Soul", serif;
+      font-weight: 400;
+
+    margin: 1rem;
+    padding: 6rem;
+    background-color: #eaeaea;
+
+
+}
+
+
+a{
+  text-decoration: none;
+  color: #FA463E;
+}
+
+main a:hover{
+  color: #EBA833;
+
+}
+
+.hero {
+  width:  100%;
+  height: auto;
+}
+
+header{
+  font-size: 4rem;
+}
+header img {
+  display: flex; 
+  position: left;
+}
+/*small screen nav*/
+@media only screen and (max-width: 1100px) {
+
+nav ul {
+ flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: .8rem;
+  color: #7006e0;
+  background-color: #EBA833;
+}
+nav a:hover{
+  color: #eaeaea;
+  background-color: #7006e0;
+}
+
+nav .active a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+}/*small screen nav end*/
+
+
+/*large screen nav*/
+
+@media only screen and (min-width: 1101px) {
+  
+
+nav { 
+  font-style: italic;
+  background-color: #EBA833;
+  padding: 0rem ;
+}
+nav a {
+  padding: 1rem 1rem;
+  display: block;
+  text-decoration: none;
+  color: #7006e0;
+ 
+}
+nav a:hover{
+  color: #eaeaea;
+  background-color: #7006e0;
+}
+
+nav .active a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+} /*large screen nav end*/
+
+
+
+main img {
+  float: right;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}
+
+
+figure.wrapped figcaption {
+    text-align: center;
+}
+
+figure.wrapped {
+  float: right;
+}
+
+
+
+
+
+h1 { 
+  font-weight: 600;
+  font-size: 4rem;
+  font-style: normal;
+  border: #60A69E;
+
+}
+h2 {
+  font-style: italic;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+h3 {
+margin-bottom: 4rem;
+font-size: 2.5rem;
+}
+h4{
+  font-size: 2rem;
+}
+
+
+
+p {
+  font-size: 2rem;
+}
+
+
+
+/* well itsnt this fun? for UL's */
+
+
+ul {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 5px;
+
+
+  font-size: 2rem;
+}
+  nav ul{
+    margin: 2rem;
+    padding: 0 10px;
+    display: flex;
+  }
+
+main ul {
+  padding: 3rem;
+  border: 1px groove #60A69E;
+  border-radius: 35px;
+
+}
+
+main a {
+  font-size: 2rem;
+}
+
+
+
+ol {
+  list-style-type: circle;
+  font-size: 2rem;
+}
+
+
+
+/* Alright this is the form stuff*/
+.form {
+  font-size: 1.4rem;
+}
+
+.form fieldset {
+  border: solid 1px #60A69E;
+  border-radius: 3px;
+  margin-bottom: 3px;
+ 
+}
+
+
+.form fieldset legend {
+  font-size: 2rem;
+  color: #7006e0;
+}
+
+.form label, .form [type=text], .form [type=tel], .form [type=email], .form textarea{
+  display: block;
+  padding: 3px;
+}
+
+.form [type=text], .form [type=tel], .form [type=email], .form textarea {
+  border: solid 1px #888;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: "My Soul", serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.form textarea {
+  height: 6rem;
+}
+
+.form :required {
+  background-color: rgba(235, 168, 51, .2);
+}
+
+.form [type=submit] {
+  border: none;
+  background-color: #EBA833;
+  color: #7006e0;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  
+  margin: 1rem 0 0 .1vw;
+}
+
+
+
+
+dl dt {
+  color: #A267E0;
+  font-size: 3rem;
+
+}
+dl dd{
+  color: #60A69E;
+  font-size: 2rem;
+}
+footer{
+  clear: both;
+}
+
+header, nav, body, footer {
+  max-width: 100rem;
+  margin: 0 auto;
+}

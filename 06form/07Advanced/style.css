@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body {
 
     font-family: "My Soul", serif;
@@ -24,7 +29,7 @@ main a:hover{
 
 
 header{
-  font-size: 5rem;
+  font-size: ;
 }
 
 nav { 
