@@ -3,32 +3,37 @@
 }
 
 
-body {
 
-    font-family: "My Soul", serif;
-      font-weight: 400;
+body {
 
     margin: 1rem;
     padding: 6rem;
     background-color: #eaeaea;
 
-
 }
+
 
 
 a{
   text-decoration: none;
-  color: #FA463E;
+  color: #8B35A6;
+}
+main p a {
+  font-size: 1.4rem;
 }
 
 main a:hover{
-  color: #EBA833;
+  color: #E07F4C;
 
 }
 
 .hero {
   width:  100%;
   height: auto;
+}
+
+nav {
+  background-image: linear-gradient(to top, #BBDBB2, #3D6331);
 }
 
 header{
@@ -52,17 +57,18 @@ nav a {
   display: block;
   text-align: center;
   padding: .8rem;
-  color: #7006e0;
-  background-color: #EBA833;
+  color: #8B35A6;
+   
 }
 nav a:hover{
-  color: #eaeaea;
-  background-color: #7006e0;
+  color: #E07F4C;
+ background-color: #3D6331;
 }
 
 nav .active a {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #498E8E;
+ 
+   
 }
 
 
@@ -77,24 +83,25 @@ nav .active a {
 
 nav { 
   font-style: italic;
-  background-color: #EBA833;
+
   padding: 0rem ;
 }
 nav a {
   padding: 1rem 1rem;
   display: block;
   text-decoration: none;
-  color: #7006e0;
+  color: #8B35A6;
  
 }
 nav a:hover{
-  color: #eaeaea;
-  background-color: #7006e0;
+  color: #E07F4C;
+  background-color: #3D6331;
 }
 
-nav .active a {
-    background-color: #000000;
-    color: #ffffff;
+nav .active  a {
+   background-color: #498E8E;
+   
+
 }
 
 } /*large screen nav end*/
@@ -102,11 +109,14 @@ nav .active a {
 
 
 main img {
-  float: right;
-  width: auto;
+ 
+  width: 630px;
   height: auto;
   margin: 1rem;
+  display: block;
 }
+
+
 
 
 figure.wrapped figcaption {
@@ -125,13 +135,13 @@ h1 {
   font-weight: 600;
   font-size: 4rem;
   font-style: normal;
-  border: #60A69E;
+ 
 
 }
 h2 {
   font-style: italic;
-  margin-bottom: 3rem;
-  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 h3 {
 margin-bottom: 4rem;
@@ -144,7 +154,7 @@ h4{
 
 
 p {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 
@@ -164,17 +174,18 @@ ul {
     margin: 2rem;
     padding: 0 10px;
     display: flex;
+    ;
   }
 
 main ul {
   padding: 3rem;
-  border: 1px groove #60A69E;
+  border: 1px groove ;
   border-radius: 35px;
 
 }
 
 main a {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
@@ -192,7 +203,7 @@ ol {
 }
 
 .form fieldset {
-  border: solid 1px #60A69E;
+  border: solid 1px ;
   border-radius: 3px;
   margin-bottom: 3px;
  
@@ -201,7 +212,7 @@ ol {
 
 .form fieldset legend {
   font-size: 2rem;
-  color: #7006e0;
+  color: #3D6331;
 }
 
 .form label, .form [type=text], .form [type=tel], .form [type=email], .form textarea{
@@ -224,13 +235,13 @@ ol {
 }
 
 .form :required {
-  background-color: rgba(235, 168, 51, .2);
+  background-color: rgba(224 , 127 , 76 , 0.15);
 }
 
 .form [type=submit] {
   border: none;
-  background-color: #EBA833;
-  color: #7006e0;
+  background-color: #BBDBB2;
+  color: #8B35A6;
   padding: 1rem 2rem;
   border-radius: 10px;
   
@@ -245,8 +256,8 @@ table.prices {
   border-collapse: collapse;
 }
 table.prices th {
-  background-color: #EBA833;
-  color: #7006e0;
+  background-color: #65a053;
+  color: #8B35A6;
   padding: .6rem 2%;
   text-align: left;
 }
@@ -265,16 +276,17 @@ table.prices tr:hover {
 
 
 dl dt {
-  color: #A267E0;
+  color: #E07F4C;
   font-size: 3rem;
 
 }
 dl dd{
-  color: #60A69E;
+  color: #8B35A6;
   font-size: 2rem;
 }
 footer{
   clear: both;
+  border: solid 1px #4C4CE1;
 }
 
 header, nav, body, footer {
